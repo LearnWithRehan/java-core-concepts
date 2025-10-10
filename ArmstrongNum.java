@@ -17,4 +17,5 @@ public class ArmstrongNum {
             System.out.println(temp + " is not Armstrong Number");
         }
     }
+
 }
