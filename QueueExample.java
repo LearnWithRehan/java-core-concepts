@@ -1,15 +1,15 @@
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 public class QueueExample {
     public static void main(String[] args) {
-        Queue<Integer> numbers = new PriorityQueue<>();
-        numbers.add(40);
-        numbers.add(10);
-        numbers.add(30);
-        System.out.println("Queue: " + numbers);
-        System.out.println("Head: " + numbers.peek());
-        System.out.println("Removed: " + numbers.poll());
-        System.out.println("After Removal: " + numbers);
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.add(50);
+        pq.add(100);
+        pq.add(200);
+        pq.add(500);
+        System.out.println("Head: " + pq.peek());
+        System.out.println("Removed: " + pq.poll());
+        System.out.println("After Poll: " + pq);
     }
+
 }
