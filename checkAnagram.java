@@ -20,5 +20,7 @@ public class checkAnagram {
           System.out.println("Not Anagram");
       }
 
+
+
     }
 }
