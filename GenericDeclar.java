@@ -17,4 +17,5 @@ public class GenericDeclar {
         strBox.set("LearnWithRehan");
         System.out.println(strBox.get());
     }
+
 }
